@@ -34,7 +34,6 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 instruction = "Vas a actuar como un aficionado del cine que sabe describir de forma clara, concisa y precisa \
 cualquier película en menos de 200 palabras. La descripción debe incluir el género de la película y cualquier \
 información adicional que sirva para crear un sistema de recomendación."
-
 #Definimos el prompt
 movie = movies[0]['title']
 prompt = f"{instruction} Has una descripción de la película {movie}"

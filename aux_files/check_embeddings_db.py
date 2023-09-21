@@ -14,3 +14,4 @@ class Command(BaseCommand):
         print(item.emb)
         
         
+        
